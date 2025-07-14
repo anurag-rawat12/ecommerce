@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const Products = () => {
+  /* eslint-disable @typescript-eslint/no-explicit-any */
   const [products, setProducts] = useState([]);
   const [allData, setAllData] = useState([]);
   const [isInitialLoading, setIsInitialLoading] = useState(true);
